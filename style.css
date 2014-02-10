@@ -1,14 +1,11 @@
-.body
 
-{
-background-color:#d0e4fe;
-}
 
 .h1
 
 {
 color:orange;
 text-align:center;
+
 }
 
 .p
@@ -143,4 +140,31 @@ font: bold 15px arial,sans-serif;
 
 }
 
+.header {
+top:0px;
+right:20px;
+left:20px;
+position:fixed;
+background: #eee;
+border:1px solid #ccc;
+padding: 0 10px 0 20px;
+}
 
+.footer {
+padding: 0 10px;
+background:#EEE;
+bottom:0px;
+right:0px;
+left:0px;
+position:fixed;
+}
+
+.body {
+font: 100% Verdana, Arial, Helvetica, sans-serif;
+background: #666666;
+margin: 0;
+padding: 0;
+text-align: center;
+color: #000000;
+margin-top:40px;
+}
